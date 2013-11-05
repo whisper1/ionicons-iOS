@@ -75,10 +75,10 @@
                                          imageSize.height)];
         UIImage *iconImage = UIGraphicsGetImageFromCurrentImageContext();
         UIGraphicsEndImageContext();
-        if (iconColor &&
-            [iconImage respondsToSelector:@selector(imageWithRenderingMode:)]) {
-            iconImage = [iconImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        }
+//        if (iconColor &&
+//            [iconImage respondsToSelector:@selector(imageWithRenderingMode:)]) {
+//            iconImage = [iconImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//        }
         return iconImage;
     } else {
 #if DEBUG
