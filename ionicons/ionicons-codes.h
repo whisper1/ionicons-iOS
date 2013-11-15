@@ -146,7 +146,7 @@
 #define icon_person_stalker @"\ue709"
 #define icon_person_add @"\ue70a"
 #define icon_person @"\ue70b"
-#define icon_chatboxes @"\ue70d"
+#define icon_chatboxes @"\ue70c"
 #define icon_chatbox_working @"\ue70d"
 #define icon_chatbox @"\ue70e"
 #define icon_chatbubbles @"\ue70f"
