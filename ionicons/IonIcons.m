@@ -44,6 +44,10 @@
                      size:(CGFloat)size
                     color:(UIColor*)color
 {
+    CGFloat scaledSize = size;
+    if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] &&  [[UIScreen mainScreen] scale] == 2.0f)
+        scaledSize *= 2.0f;
+    
     return [IonIcons imageWithIcon:icon_name
                          iconColor:color
                           iconSize:size
