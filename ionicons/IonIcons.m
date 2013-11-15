@@ -44,34 +44,34 @@
                      size:(CGFloat)size
                     color:(UIColor*)color
 {
-    CGFloat scaledSize = size;
+    CGFloat scale = 1.0f;
     if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] &&  [[UIScreen mainScreen] scale] == 2.0f)
-        scaledSize *= 2.0f;
+        scale = 2.0f;
     
     return [IonIcons imageWithIcon:icon_name
-                         iconColor:color
-                          iconSize:size
-                         imageSize:CGSizeMake(size, size)];
+                              size:size
+                             color:color
+                         imageSize:CGSizeMake(size * scale, size * scale)];
 }
 
 + (UIImage*)imageWithIcon:(NSString*)icon_name
-                iconColor:(UIColor*)iconColor
-                 iconSize:(CGFloat)iconSize
+                     size:(CGFloat)size
+                    color:(UIColor *)color
                 imageSize:(CGSize)imageSize;
 {
     NSAssert(icon_name, @"You must specify an icon from font-awesome-codes.h.");
     
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6) {
-        if (!iconColor) { iconColor = [UIColor blackColor]; }
+        if (!color) { color = [UIColor blackColor]; }
         
         UIGraphicsBeginImageContextWithOptions(imageSize, NO, 0.0);
         NSAttributedString* attString = [[NSAttributedString alloc]
                                          initWithString:icon_name
-                                         attributes:@{NSFontAttributeName: [IonIcons fontWithSize:iconSize],
-                                                      NSForegroundColorAttributeName : iconColor}];
+                                         attributes:@{NSFontAttributeName: [IonIcons fontWithSize:size],
+                                                      NSForegroundColorAttributeName : color}];
         // get the target bounding rect in order to center the icon within the UIImage:
         NSStringDrawingContext *ctx = [[NSStringDrawingContext alloc] init];
-        CGRect boundingRect = [attString boundingRectWithSize:CGSizeMake(iconSize, iconSize) options:0 context:ctx];
+        CGRect boundingRect = [attString boundingRectWithSize:CGSizeMake(size, size) options:0 context:ctx];
         // draw the icon string into the image:
         [attString drawInRect:CGRectMake((imageSize.width/2.0f) - boundingRect.size.width/2.0f,
                                          (imageSize.height/2.0f) - boundingRect.size.height/2.0f,
@@ -88,7 +88,7 @@
 #if DEBUG
         NSLog(@" [ IonIcons ] Using lower-res iOS 5-compatible image rendering.");
 #endif
-        UILabel *iconLabel = [IonIcons labelWithIcon:icon_name size:iconSize color:iconColor];
+        UILabel *iconLabel = [IonIcons labelWithIcon:icon_name size:size color:color];
         UIImage *iconImage = nil;
         UIGraphicsBeginImageContextWithOptions(imageSize, NO, 1.0);
         {

@@ -24,9 +24,7 @@
     
     // UIImage Example:
     // NOTE: The image methods only work if your app's base sdk is iOS 6+.
-    UIImage *icon = [IonIcons imageWithIcon:icon_archive iconColor:[UIColor redColor]
-                                      iconSize:60.0f
-                                     imageSize:CGSizeMake(90.0f, 90.0f)];
+    UIImage *icon = [IonIcons imageWithIcon:icon_archive size:60.0f color:[UIColor redColor] imageSize:CGSizeMake(90.0f, 90.0f)];
     UIImageView *img = [[UIImageView alloc] initWithImage:icon];
     img.center = self.view.center;
     img.backgroundColor = [UIColor lightGrayColor];

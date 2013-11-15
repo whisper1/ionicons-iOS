@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DF96C160-C346-4D99-9084-2FADFB8D744B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Example-ionicons</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CFCC3BAB-FDB3-4D38-A6F1-92FAB2B14127</key>
+		<string>ssh://github.com/pfleiner/ionicons-iOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example-ionicons/Example-ionicons.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CFCC3BAB-FDB3-4D38-A6F1-92FAB2B14127</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/pfleiner/ionicons-iOS</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CFCC3BAB-FDB3-4D38-A6F1-92FAB2B14127</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CFCC3BAB-FDB3-4D38-A6F1-92FAB2B14127</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ionicons-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

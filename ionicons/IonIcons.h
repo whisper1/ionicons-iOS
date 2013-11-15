@@ -39,8 +39,8 @@
 /* The image and the icon inside it can be configured to different sizes:
  */
 + (UIImage*)imageWithIcon:(NSString*)icon_name
-                iconColor:(UIColor*)color
-                 iconSize:(CGFloat)iconSize
+                     size:(CGFloat)size
+                    color:(UIColor *)color
                 imageSize:(CGSize)imageSize;
 
 @end
