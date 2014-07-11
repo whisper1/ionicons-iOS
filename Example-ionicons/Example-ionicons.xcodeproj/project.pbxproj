@@ -23,9 +23,9 @@
 		5542069E18217160005A3D9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5542069C18217160005A3D9E /* InfoPlist.strings */; };
 		554206A018217160005A3D9E /* Example_ioniconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5542069F18217160005A3D9E /* Example_ioniconsTests.m */; };
 		554206B018217179005A3D9E /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 554206AC18217179005A3D9E /* IonIcons.m */; };
-		554206B118217179005A3D9E /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 554206AD18217179005A3D9E /* ionicons.ttf */; };
 		554206B218217179005A3D9E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 554206AE18217179005A3D9E /* LICENSE */; };
 		554206B318217179005A3D9E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 554206AF18217179005A3D9E /* README.md */; };
+		636CBF5F196F6DA6002CD922 /* ionicons.otf in Resources */ = {isa = PBXBuildFile; fileRef = 636CBF5E196F6DA6002CD922 /* ionicons.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,9 @@
 		554206AA18217179005A3D9E /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
 		554206AB18217179005A3D9E /* IonIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IonIcons.h; sourceTree = "<group>"; };
 		554206AC18217179005A3D9E /* IonIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IonIcons.m; sourceTree = "<group>"; };
-		554206AD18217179005A3D9E /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
 		554206AE18217179005A3D9E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		554206AF18217179005A3D9E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		636CBF5E196F6DA6002CD922 /* ionicons.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +172,7 @@
 				554206AA18217179005A3D9E /* ionicons-codes.h */,
 				554206AB18217179005A3D9E /* IonIcons.h */,
 				554206AC18217179005A3D9E /* IonIcons.m */,
-				554206AD18217179005A3D9E /* ionicons.ttf */,
+				636CBF5E196F6DA6002CD922 /* ionicons.otf */,
 				554206AE18217179005A3D9E /* LICENSE */,
 				554206AF18217179005A3D9E /* README.md */,
 			);
@@ -258,9 +258,9 @@
 			files = (
 				554206B218217179005A3D9E /* LICENSE in Resources */,
 				5542068818217160005A3D9E /* Main_iPad.storyboard in Resources */,
-				554206B118217179005A3D9E /* ionicons.ttf in Resources */,
 				554206B318217179005A3D9E /* README.md in Resources */,
 				5542068D18217160005A3D9E /* Images.xcassets in Resources */,
+				636CBF5F196F6DA6002CD922 /* ionicons.otf in Resources */,
 				5542068518217160005A3D9E /* Main_iPhone.storyboard in Resources */,
 				5542067C18217160005A3D9E /* InfoPlist.strings in Resources */,
 			);

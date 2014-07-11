@@ -44,7 +44,7 @@ Modify your project's Info.plist file:
 1. Open your project's Info.plist file by clicking on the project in the Navigator on the left, then choosing 'Info'.
 2. Under 'Custom iOS Target Properties', click the last Key in the list, then click on the '+' icon.
 3. For the new key, type 'Fonts provided by application'.
-4. Twirl down the arrow icon, double-tap the right-most box to enter the string value, and type 'ionicons.ttf'.
+4. Twirl down the arrow icon, double-tap the right-most box to enter the string value, and type 'ionicons.**otf**'.
 ![Info.plist modification]()
 
 ## Shameles Plug:
